@@ -2,8 +2,6 @@
 
 * 서버 재설치를 위한 자료 정리
 
----
-
 ## 네트워크
 
 #### 고정 아이피 할당
@@ -27,8 +25,6 @@ network:
 ```
 
 > or 공유기에서 고정 할당
-
----
 
 ## 디스크
 
@@ -54,8 +50,6 @@ sudo mount -t ntfs-3g /dev/sdb1 /media/D/
 sudo chown $USER:$USER /media/D
 ```
 
----
-
 ## 그래픽 카드 드라이버 설치 오류 해결
 
 * gcc, g++ 설치
@@ -63,8 +57,6 @@ sudo chown $USER:$USER /media/D
 1. 그래픽 관련 프로세스 정지 확인 (gdm, sddm 등)
 2. https://unix.stackexchange.com/questions/440840/how-to-unload-kernel-module-nvidia-drm/441811#441811
 3. https://linuxconfig.org/how-to-disable-nouveau-nvidia-driver-on-ubuntu-18-04-bionic-beaver-linux
-
----
 
 ## CUDA 설치
 
@@ -81,8 +73,6 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-11.4/lib64
 
 * 현재 세션에서 바로 환경 변수를 갱신하려면, `source /etc/profile`을 입력
 
----
-
 ## Fail2Ban
 
 ```bash
@@ -98,11 +88,13 @@ findtime = 60m
 maxretry = 3
 ```
 
----
-
 ## 절전 모드 비활성화
 
 ```bash
 sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target
 ```
+
+## 소프트웨어
+
+* [softwares/](./softwares/) 참조
 
