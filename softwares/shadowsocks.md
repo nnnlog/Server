@@ -4,7 +4,7 @@
 
 ### 설치
 
-[https://github.com/Jigsaw-Code/outline-ss-server/releases에서 다운 후 `tar xvzf <file>` 명령어를 사용하여 압축 해제
+[https://github.com/Jigsaw-Code/outline-ss-server/releases](https://github.com/Jigsaw-Code/outline-ss-server/releases)에서 다운 후 `tar xvzf <file>` 명령어를 사용하여 압축 해제
 
 ### 구성
 
@@ -96,7 +96,7 @@ WantedBy=multi-user.target
 
 ```bash
 sudo systemctl daemon-reload
-sudo systemctl enable --now shadowsocks
+sudo systemctl enable --now s
 ```
 
 ### Android
