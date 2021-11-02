@@ -85,7 +85,7 @@ After=network-online.target
 
 [Service]
 Type=simple
-User=r
+User=ro
 ExecStart=ss-local -s <server_host> -p <server_port> -l <local_proxy_port> -k <password>
 Restart=on-failure
 RestartSec=30
@@ -96,7 +96,7 @@ WantedBy=multi-user.target
 
 ```bash
 sudo systemctl daemon-reload
-sudo systemctl enable --now s
+sudo systemctl enable --now ss-local
 ```
 
 ### Android
