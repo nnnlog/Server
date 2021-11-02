@@ -73,21 +73,6 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-11.4/lib64
 
 * 현재 세션에서 바로 환경 변수를 갱신하려면, `source /etc/profile`을 입력
 
-## Fail2Ban
-
-```bash
-sudo apt install fail2ban -y
-```
-
-설정은 `/etc/fail2ban/jail.conf`에서 가능
-
-```
-ignoreip = 127.0.0.1/8 ::1  192.168.0.0/24
-bantime = -1
-findtime = 60m
-maxretry = 3
-```
-
 ## 절전 모드 비활성화
 
 ```bash

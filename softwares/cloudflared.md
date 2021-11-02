@@ -55,6 +55,6 @@ sudo cloudflared service install
 
 https://developers.cloudflare.com/cloudflare-one/tutorials/ssh#route-to-the-tunnel
 
-## 도메인으로 SSH 접근
+## 도메인으로 SSH 접속
 
 https://developers.cloudflare.com/cloudflare-one/tutorials/ssh#connect-from-a-client-machine
