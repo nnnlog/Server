@@ -10,7 +10,7 @@
 |    xcaddy    |               웹 서버               |      [xcaddy.md](./xcaddy.md)      |
 | FileBrowser  |          Web File Browser           |                                    |
 | Shadowsocks  | outline-ss-server를 사용한 vpn 서버 | [shadowsocks.md](./shadowsocks.md) |
-| qBittorrent  |         qBittorrent 웹 서버         |                                    |
+| qBittorrent  |         qBittorrent 웹 서버         | [qbittorrent.md](./qbittorrent.md) |
 | AdoptOpenJDK |              자바 설치              |                                    |
 |   JellyFin   |            미디어 시스템            |                                    |
 |   Certbot    |            수동 SSL 발급            |                                    |
