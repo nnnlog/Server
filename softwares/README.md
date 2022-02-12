@@ -2,9 +2,9 @@
 
 |     이름     |                설명                 |                자료                |
 | :----------: | :---------------------------------: | :--------------------------------: |
-|   Node.js    |                                     |      [nodejs.md](./nodejs.md)      |
-|      Go      |                                     |          [go.md](./go.md)          |
-|   Flutter    |                                     |     [flutter.md](./flutter.md)     |
+|   Node.js    |            Node.js 설치             |      [nodejs.md](./nodejs.md)      |
+|      Go      |               Go 설치               |          [go.md](./go.md)          |
+|   Flutter    |            Flutter 설치             |     [flutter.md](./flutter.md)     |
 | Cloudflared  |      Cloudflare Tunenl Client       | [cloudflared.md](./cloudflared.md) |
 |   netdata    |            서버 모니터링            |     [netdata.md](./netdata.md)     |
 |    xcaddy    |               웹 서버               |      [xcaddy.md](./xcaddy.md)      |
